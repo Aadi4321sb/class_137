@@ -1,0 +1,56 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    font-size: 3rem;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.5s ease-in-out;
+    color:red;
+    -webkit-text-stroke: 1px;
+}
+#start, #number_of_objects, #start{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    transition:0.5s ease-in-out;
+    color: white;
+    
+}
+.copyright-footer{
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    color: black;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-in-out;
+
+}
+canvas{
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin-top: 130px;
+    box-shadow: 6px 6px 6px #fff;
+}
+#emoji{
+    font-size: 20px;
+}
+#startbtn{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-in-out;
+    color: darkgreen;
+    align-items: center;
+}
+#status{
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
